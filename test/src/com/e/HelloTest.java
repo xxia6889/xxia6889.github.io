@@ -23,12 +23,15 @@ public class HelloTest {
 
         Person p = new Person();
         user.setAge(10);
+        user.setName("张三");
         p.setAge(20);
 
         System.out.println(user.getAge());
 
         System.out.println("Hello");
         System.out.println("你好");
+
+        System.out.println(user.getAge()+" + "+user.getName() );
 
 
     }
