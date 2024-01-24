@@ -21,15 +21,26 @@ public class HelloTest {
 
         User user = new User();
 
-
         Person p = new Person();
         user.setAge(10);
         p.setAge(20);
 
         System.out.println(user.getAge());
 
-
         System.out.println("Hello");
+        System.out.println("你好");
+
+
     }
 
+
+    public void test(Object object) {
+        object.toString();
+    }
+
+
+
+
 }
+
+

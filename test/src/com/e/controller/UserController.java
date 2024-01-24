@@ -7,6 +7,6 @@ package com.e.controller;
  **/
 
 
-public class UserCOntroller {
+public class UserController {
 
 }
